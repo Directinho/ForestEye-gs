@@ -240,3 +240,24 @@ button a {
 .problema {
     background-color: var(--color-black-primary)
 }
+.animacao {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.animacao i {
+    font-size: 48px;
+}
+#icon {
+    color: rgb(255, 255, 255);
+    animation: motinha 9s infinite linear;
+}
+@keyframes motinha {
+    0%,
+    100%{
+        transform: translatex(-200px);
+    }
+    50%{
+        transform: translatex(200px);
+    }
+}
