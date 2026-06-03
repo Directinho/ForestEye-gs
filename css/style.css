@@ -86,8 +86,8 @@ button a {
     transition: 0.3s;
 }
 
-.problema, .tecnologia, .objetivos {
-    height: 100vh;
+.problema, .tecnologia, .objetivos, .publico-alvo {
+    min-height: 100vh;
 }
 .home {
     display: flex;
@@ -344,7 +344,7 @@ button a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     max-width: 100%;
     margin: 0 auto;
     padding: 40px 20px;
@@ -378,4 +378,88 @@ button a {
 }
 .objetivo-card img:hover {
     transform: scale(1.25);
+}
+.publico-alvo {
+    background-color: var(--color-dark-3);
+    color: var(--color-light);
+    padding: 100px 20px 120px;
+    min-height: 100vh;
+}
+
+.publico-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1400px;
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.publico-content{
+    flex: 1;
+    min-width: 320px;
+    max-width: 420px;
+    background-color: var(--color-black-primary);
+    border-radius: 24px;
+    padding: 40px 32px;
+    border: 1px solid rgba(128, 187, 223, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.publico-content:hover {
+    transform: translateY(-8px);
+}
+
+.publico-content h1 {
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+    color: var(--color-light);
+    font-family: var(--font-bold);
+}
+
+.publico-content h2 {
+    font-size: 16px;
+    margin-bottom: 24px;
+    opacity: 0.9;
+}
+
+.publico-content p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+.publico-content ul {
+    list-style: none;
+}
+
+.publico-content ul li {
+    padding: 10px 0;
+    position: relative;
+    padding-left: 24px;
+}
+
+#icones {
+    font-size: 32px;
+    transition: transform 0.3s ease;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+#icones:hover {
+    transform: rotate(15deg) scale(1.2);
+}
+.rodape {
+    font-family: var(--font-bold);
+    background-color: var(--color-dark-2);
+    font-size: 1.25rem;
+    color: var(--color-light);
+    text-align: center;
+    padding: 20px;
+}
+.rodape li {
+    list-style: none;
+    margin: 8px 0;
 }
