@@ -188,7 +188,7 @@ button a {
     transform: scale(1.1);
 }
 .titulo-problema h2{
-    font-size: 16px;
+    font-size: 20px;
 }
 .cards-conjunto {
     display: flex;
@@ -339,6 +339,7 @@ button a {
 .objetivo-titulo h1:hover {
     transform: scale(1.1);
 }
+
 .objetivos-conteudo {
     display: flex;
     flex-wrap: wrap;
