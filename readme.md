@@ -8,10 +8,8 @@
 ☀️Melhor desempenho térmico<br>
 </b>
 </div>
-<<<<<<< HEAD
 <p><b>Javascript, GIT</b></p>
 <h3>Site fictício feito para GS da FIAP Faculdade</h3>
-=======
 <h2 align="center">🖼️Imagens do Projeto🖼️</h2>
 <h4 align="center"><b>🏠Principal</b></h4>
 <div align="center"><img src="https://i.imgur.com/dsMpg6I.png" style="height: auto; width: 600px;"></div>
@@ -31,4 +29,4 @@
 </div>
 <h3 align="center"style="text-decoration: none;"><b>Javascript e GIT</b></h3>
 <h3 align="center">Site fictício feito para GS da FIAP Faculdade</h3>
->>>>>>> 9e5bb9662e7f8a06f3664094dc982fd0d554b3df
+
